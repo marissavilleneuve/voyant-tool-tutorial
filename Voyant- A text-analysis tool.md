@@ -23,6 +23,13 @@ A new word cloud should appear.  Now for our text, the words 'city', 'country', 
 ### Exporting Data
 Voyant can be used to manipulate texts and extract key elements, which can then be exported for use in other programs.  We will go over one example this by looking at how to use the RezoViz feature to create a .net file ready for network analysis in a program like Gephi(link to it).  
 
+To access other features select the save button in the top right corner of the screen, from the list of saving options select the very last one: "a URL for a different tool/skin and current data", this will take you to a drop down selection box with many visualization options. Select "RezoViz". This will bring up a URL, copy and paste it into the navagation bar and that will bring up the tool. 
+
+The tool can take a while to process, and depending on the size of the corpus and your computer's processing power, might not start at all. If it does the visualization should look like a web, with the most common term in the centre. 
+
+The bottom left has options for altering the visualization, where you can limit the number of terms, as well as tension, replusion and friction. 
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/options.jpg)
+
 (Note to self: include a strong warning about how it might make your computer freeze/unresponsive/bad/blink in a way that isn't good for epileptics)
 
 (I'll write this whole long part Thursday-ish)
