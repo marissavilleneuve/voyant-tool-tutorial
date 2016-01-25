@@ -30,6 +30,21 @@ The tool can take a while to process, and depending on the size of the corpus an
 The bottom left has options for altering the visualization, where you can limit the number of terms, as well as tension, replusion and friction. 
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/options.jpg)
 
+
+After making choices about terms, and correcting any errors in the program's catagorization, you can save your network analysis as a .net file. Clicking the save button in the top right corner and selecting "all data in Pajek (.net) syntax" creates the file which can then be used in Gephi!
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/fornetfile.jpg)
+
+Gephi enables a greater level of control and options for network analysis, but the program can be tricky. ((((Link gephi in, somebasics about it)))
+
+To get started ((((mention how that sometimes you need to tell the program where it's located or something, I'll find that tomorrow)) simply select new project and under file select open. After finding the .net file, open and you'll see something like this
+
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/gephi.jpg)
+
+If instead of a visualization you're shown the message that there isn't enough memory you can follow some simple steps to increase it:
+Find Gephi under "Program files (x86)" in your C: drive. In the "etc" folder there should be a file called "gephi.conf", open this in a text editor like Sublime Text, or Atom, and find the line "Xmx". replace the number following that with 5708, making sure the m follows directely after. Save the file and restart Gephi, it should work now. (For other ways of changing this, and more instructions [click here](https://gephi.org/users/install/#memory)
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/editingin.jpg)
+
+
 (Note to self: include a strong warning about how it might make your computer freeze/unresponsive/bad/blink in a way that isn't good for epileptics)
 
 (I'll write this whole long part Thursday-ish)
