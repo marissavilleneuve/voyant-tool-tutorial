@@ -20,7 +20,7 @@ A new word cloud should appear.  Now for our text, the words 'city', 'country', 
 
 
 ### Using Different Tools within Voyant
-Voyant can be used to manipulate texts and extract key elements, which can then be analyzed or exported for use in other programs.  We will go over a few differents tools Voyant contains.  Depending on the strengths of your computer, many of these will fail.  A second shot will sometimes work but some may be simply beyond your computer's abilities.  As long as you don't mind possibly breaking your browser and needing to restart it, it never hurts to try though.  Some of the tools will flicker intensely if they do not load up correctly, so it is suggested you not use Voyant if you have epilepsy.    
+Voyant can be used to manipulate texts and extract key elements, which can then be analyzed or exported for use in other programs.  We will go over a few differents tools Voyant contains.  Depending on the strengths of your computer, many of these will fail.  A second shot will sometimes work but some may be simply beyond your computer's abilities.  As long as you don't mind possibly breaking your browser and needing to restart it, it never hurts to try though. **Some of the tools will flicker intensely if they do not load up correctly, so it is suggested you not use Voyant if you have epilepsy.**   
 
 To access other tools select the save button in the top right corner of the screen. From the list of saving options select the very last one: "a URL for a different tool/skin and current data", this will take you to a drop down selection box with many visualization options. Selecting one will bring up a URL. Copy and paste it into the navagation bar and that will bring up the tool. 
 
@@ -36,15 +36,18 @@ The bottom left has options for altering the visualization, where you can limit 
 After making choices about terms, and correcting any errors in the program's catagorization, you can save your network analysis as a .net file. Clicking the save button in the top right corner and selecting "all data in Pajek (.net) syntax" creates the file which can then be used in Gephi!
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/fornetfile.jpg)
 
-Gephi enables a greater level of control and options for network analysis, but the program can be tricky. ((((Link gephi in, somebasics about it)))
+Gephi enables a greater level of control and options for network analysis, but the program can be tricky. As stated it's a network analysis program that creates large visuals, and has a number of options for customization, so if a detailed look into the relationships between people/places is important Gephi is worth the trouble! [Here's more about the features.](https://gephi.org/features/)
 
-To get started ((((mention how that sometimes you need to tell the program where it's located or something, I'll find that tomorrow)) simply select new project and under file select open. After finding the .net file, open and you'll see something like this
+
+To get started (if you're having problems getting the program to intialize [click here](https://forum.gephi.org/viewtopic.php?t=3309) for help) simply select new project and under file select open. After finding the .net file, open and you'll see something like this:
 
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/gephi.jpg)
 
 If instead of a visualization you're shown the message that there isn't enough memory you can follow some simple steps to increase it:
 Find Gephi under "Program files (x86)" in your C: drive. In the "etc" folder there should be a file called "gephi.conf", open this in a text editor like Sublime Text, or Atom, and find the line "Xmx". replace the number following that with 5708, making sure the m follows directely after. Save the file and restart Gephi, it should work now. (For other ways of changing this, and more instructions [click here](https://gephi.org/users/install/#memory)
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/editingin.jpg)
+
+
 
 =======
 >>>>>>> Stashed changes
