@@ -104,7 +104,7 @@ Here we have just thrown in a link to a google search:
 
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/popo.jpg)
 
-Depending on the page voyant can pick up on some weird syntax. Or, here I've uploaded a .png
+Depending on the page voyant can pick up on some weird syntax. Or, here is an example image showing what can happen:
 
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/png.jpg)
 
