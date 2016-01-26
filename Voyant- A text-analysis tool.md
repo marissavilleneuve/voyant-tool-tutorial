@@ -75,9 +75,11 @@ For more information you can hover above the lines and the exact number of times
 #### Bubblelines
 
 Bubblelines is quite similar to Word Trends, but a lot prettier! Here instead of a boring old line graph, we're presenting with cute little bubbles representing terms over the duration of the text. Again, hovering above the graph will reveal the number of times a term, or terms have come up in the segment, and you can alter the detail by changing the granularity at the top.
+
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/rretrer.jpg)
 
 Like Word Trends, you can collaspe the graph to just one line, but the bubbles retain their colour so the terms are still distinct. 
+
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/rrere.jpg)
 
 This sort of work is useful, but what you can get out of it is determined by your choice of words so be careful about things like spelling and translations.  A tool is only as good as the content input!
@@ -93,12 +95,12 @@ Using Voyant effectively requires patience and a decent computer, but if you are
 
 + [Voyant's Documentation](http://docs.voyant-tools.org/): Provides a quick walkthrough for using Voyant and descriptions of all the tools it contains.
 + [A Gephi Tutorial](http://electricarchaeology.ca/2013/10/29/getting-historical-network-data-into-gephi/)
-+ 
-###Miscellaneous
+
+### Miscellaneous
 
 Voyant is capable of extracting text from things. 
 
-Here I've just thrown in a link to a google search:
+Here we have just thrown in a link to a google search:
 
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/popo.jpg)
 
