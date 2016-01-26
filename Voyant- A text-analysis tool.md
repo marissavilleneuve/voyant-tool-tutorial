@@ -34,6 +34,7 @@ The bottom left has options for altering the visualization, where you can limit 
 <<<<<<< Updated upstream
 
 After making choices about terms, and correcting any errors in the program's catagorization, you can save your network analysis as a .net file. Clicking the save button in the top right corner and selecting "all data in Pajek (.net) syntax" creates the file which can then be used in Gephi!
+
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/fornetfile.jpg)
 
 Gephi enables a greater level of control and options for network analysis, but the program can be tricky. As stated it's a network analysis program that creates large visuals, and has a number of options for customization, so if a detailed look into the relationships between people/places is important Gephi is worth the trouble! [Here's more about the features.](https://gephi.org/features/)
@@ -63,6 +64,31 @@ If you click on a point along the line, it will open up the sentence with that p
 You have the ability to control the build speed, starting angle, and tangles at the top, in order to make the visualization more legible.  Short lines indicate little space between uses of the word while longer lines indicate large gaps.  It is possible with this tool to hone in on parts of the text where a word is used more frequently, or see if certain words appear together frequently by comparing the lines.  
 
 
+####Word Trends
+
+As the name implies, word trends shows the terms as a graph with frequency over the document. Since it's displayed as a simple line graph, the information is easy to extract. For a general view into the text you can limit the number of segments shown. Alternatively, for a more detailed view into the frequency through parts of the text you can increase the number of segments. 
+
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/w2w.jpg)
+
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/thjegrave.jpg)
+
+You can also collapse the terms so you're left with just one line.
+
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/rrrr.jpg)
+
+
+For more information you can hover above the lines and the exact number of times a term or terms were used in the segment will appear!
+
+
+####Bubblelines
+
+Bubblelines is quite similar to Word Trends, but a lot prettier! Here instead of a boring old line graph, we're presenting with cute little bubbles representing terms over the duration of the text. Again, hovering above the graph will reveal the number of times a term, or terms have come up in the segment, and you can alter the detail by changing the granularity at the top.
+
+ ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/rretrer.jpg)
+ 
+ Like Word Trends you can collaspe the graph to just one line, but the bubbles retain their colour so the terms are still distinct. 
+ 
+ ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/rrere.jpg)
 
 
 
