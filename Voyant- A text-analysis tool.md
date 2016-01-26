@@ -28,6 +28,8 @@ To access other tools select the save button in the top right corner of the scre
 RezoViz allows for insight into different connections between elements (like people or places) within a text.  It can also be used to export that information to a .net file ready for network analysis in a program like [Gephi](https://gephi.org).  The tool can take a while to process, and depending on the size of the corpus and your computer's processing power, might not start at all. If it does the visualization should look like a web, with the most common term in the centre. 
 
 The bottom left has options for altering the visualization, where you can limit the number of terms, as well as tension, replusion and friction. 
+
+
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/options.jpg)
 
 After making choices about terms, and correcting any errors in the program's catagorization, you can save your network analysis as a .net file. Clicking the save button in the top right corner and selecting "all data in Pajek (.net) syntax" creates the file which can then be used in Gephi!
@@ -42,7 +44,7 @@ To get started (if you're having problems getting the program to intialize [clic
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/gephi.jpg)
 
 If instead of a visualization you're shown the message that there isn't enough memory you can follow some simple steps to increase it:
-Find Gephi under "Program files (x86)" in your C: drive. In the "etc" folder there should be a file called "gephi.conf", open this in a text editor like Sublime Text, or Atom, and find the line "Xmx". replace the number following that with 5708, making sure the m follows directely after. Save the file and restart Gephi, it should work now. (For other ways of changing this, and more instructions [click here](https://gephi.org/users/install/#memory).
+Find Gephi under "Program files (x86)" in your C: drive. In the "etc" folder there should be a file called "gephi.conf", open this in a text editor like Sublime Text, or Atom, and find the line "Xmx". replace the number following that with 5708, making sure the m follows directely after. Save the file and restart Gephi, it should work now. (For other ways of changing this, and more instructions [click here](https://gephi.org/users/install/#memory).)
 
 ![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/editingin.jpg)
 
@@ -91,3 +93,17 @@ Using Voyant effectively requires patience and a decent computer, but if you are
 
 + [Voyant's Documentation](http://docs.voyant-tools.org/): Provides a quick walkthrough for using Voyant and descriptions of all the tools it contains.
 + [A Gephi Tutorial](http://electricarchaeology.ca/2013/10/29/getting-historical-network-data-into-gephi/)
++ 
+###Miscellaneous
+
+Voyant is capable of extracting text from things. 
+
+Here I've just thrown in a link to a google search:
+
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/popo.jpg)
+
+Depending on the page voyant can pick up on some weird syntax. Or, here I've uploaded a .png
+
+![](http://i17.photobucket.com/albums/b99/Dragon_Tamer13/png.jpg)
+
+It was able to read the image as text, but never fully loaded to show that text. These examples are just to show that you can play with Voyant to get some different, unexpected results. 
